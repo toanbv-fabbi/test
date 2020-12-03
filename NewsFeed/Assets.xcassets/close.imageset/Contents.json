@@ -2,8 +2,7 @@
   "images" : [
     {
       "filename" : "close.pdf",
-      "idiom" : "universal",
-      "locale" : "Icon"
+      "idiom" : "universal"
     }
   ],
   "info" : {

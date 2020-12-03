@@ -2,8 +2,7 @@
   "images" : [
     {
       "filename" : "settings.pdf",
-      "idiom" : "universal",
-      "locale" : "Bar"
+      "idiom" : "universal"
     }
   ],
   "info" : {

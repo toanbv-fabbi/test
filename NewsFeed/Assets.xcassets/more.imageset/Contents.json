@@ -2,8 +2,7 @@
   "images" : [
     {
       "filename" : "more.pdf",
-      "idiom" : "universal",
-      "locale" : "Icon"
+      "idiom" : "universal"
     }
   ],
   "info" : {
