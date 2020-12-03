@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "settings.pdf",
+      "idiom" : "universal",
+      "locale" : "Bar"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

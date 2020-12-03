@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068C434D7402BAB49C44DF01 /* Pods_NewsFeed_NewsFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3262AC0D1575645B94E444 /* Pods_NewsFeed_NewsFeedUITests.framework */; };
+		4449D6FA4CEAA8794C9AF3A0 /* Pods_NewsFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134BF84EC3E73312F2A7381A /* Pods_NewsFeed.framework */; };
+		F195BE6BEFBCBF0C8BAA52EA /* Pods_NewsFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABF5EB5F5C408FA62FA08A8 /* Pods_NewsFeedTests.framework */; };
+		F906A00F2538253100312DE0 /* CCBRNewsBigCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A00D2538253100312DE0 /* CCBRNewsBigCardView.m */; };
+		F906A0102538253100312DE0 /* CCBRNewsBigCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F906A00E2538253100312DE0 /* CCBRNewsBigCardView.xib */; };
+		F906A017253826ED00312DE0 /* CCBRNewsSmallCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A015253826ED00312DE0 /* CCBRNewsSmallCardView.m */; };
+		F906A018253826ED00312DE0 /* CCBRNewsSmallCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F906A016253826ED00312DE0 /* CCBRNewsSmallCardView.xib */; };
+		F906A02225382ADA00312DE0 /* CCBRNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A02025382ADA00312DE0 /* CCBRNewsViewController.m */; };
+		F906A02325382ADA00312DE0 /* CCBRNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F906A02125382ADA00312DE0 /* CCBRNewsViewController.xib */; };
+		F906A033253831D100312DE0 /* CCBRNewsCardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F906A032253831D100312DE0 /* CCBRNewsCardViewModel.m */; };
+		F90BE34B25369BA8006F8EB6 /* CCBRNewsRestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F90BE34A25369BA8006F8EB6 /* CCBRNewsRestResponse.m */; };
+		F90BE37725370A94006F8EB6 /* CCBRNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F90BE37625370A94006F8EB6 /* CCBRNewsViewModel.m */; };
+		F917A64C2578C0B000C3087E /* CCBREventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F917A64B2578C0B000C3087E /* CCBREventLogger.m */; };
+		F9390E6025431F6600B7FF6E /* UIView+CocCoc.m in Sources */ = {isa = PBXBuildFile; fileRef = F9390E5F25431F6600B7FF6E /* UIView+CocCoc.m */; };
+		F9704355257792EB00C1C3C2 /* CCBRNewsSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9704354257792EB00C1C3C2 /* CCBRNewsSourceModel.m */; };
+		F970435B2577938F00C1C3C2 /* CCBRNewsCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F970435A2577938F00C1C3C2 /* CCBRNewsCategoryModel.m */; };
+		F97043672577D83000C1C3C2 /* CCBRCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F97043662577D83000C1C3C2 /* CCBRCoordinator.m */; };
+		F970437E2577DC5500C1C3C2 /* NSString+CocCoc.mm in Sources */ = {isa = PBXBuildFile; fileRef = F970437D2577DC5500C1C3C2 /* NSString+CocCoc.mm */; };
+		F98D22E52578C9EE00BD90E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C7957825357FD500D5B365 /* Assets.xcassets */; };
+		F99395182539335C00DC5F11 /* CCBRNewsMediumCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F99395162539335C00DC5F11 /* CCBRNewsMediumCardView.m */; };
+		F99395192539335C00DC5F11 /* CCBRNewsMediumCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99395172539335C00DC5F11 /* CCBRNewsMediumCardView.xib */; };
 		F9C7956E25357FD400D5B365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7956D25357FD400D5B365 /* AppDelegate.m */; };
 		F9C7957125357FD400D5B365 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7957025357FD400D5B365 /* SceneDelegate.m */; };
 		F9C7957425357FD400D5B365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7957325357FD400D5B365 /* ViewController.m */; };
 		F9C7957725357FD400D5B365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C7957525357FD400D5B365 /* Main.storyboard */; };
-		F9C7957925357FD500D5B365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C7957825357FD500D5B365 /* Assets.xcassets */; };
 		F9C7957C25357FD500D5B365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C7957A25357FD500D5B365 /* LaunchScreen.storyboard */; };
 		F9C7957F25357FD500D5B365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7957E25357FD500D5B365 /* main.m */; };
 		F9C7958925357FD500D5B365 /* NewsFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7958825357FD500D5B365 /* NewsFeedTests.m */; };
 		F9C7959425357FD500D5B365 /* NewsFeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C7959325357FD500D5B365 /* NewsFeedUITests.m */; };
+		F9C795A425358B5D00D5B365 /* CCBRNewsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C795A225358B5D00D5B365 /* CCBRNewsPageViewController.m */; };
+		F9C795A525358B5D00D5B365 /* CCBRNewsPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C795A325358B5D00D5B365 /* CCBRNewsPageViewController.xib */; };
+		F9DFC5B52535F0B000404DD5 /* CCBRNewsQuickViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFC5B42535F0B000404DD5 /* CCBRNewsQuickViewModel.m */; };
+		F9DFC5BB2535F0C300404DD5 /* CCBRNewsArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFC5BA2535F0C300404DD5 /* CCBRNewsArticleModel.m */; };
+		F9DFC5C12535F6D700404DD5 /* CCBRNewsPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFC5C02535F6D700404DD5 /* CCBRNewsPageViewModel.m */; };
+		F9DFC5CB2535F99400404DD5 /* CCBRNewsDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFC5CA2535F99400404DD5 /* CCBRNewsDataStore.m */; };
+		F9DFC5D12536961600404DD5 /* CCBRNewsRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFC5D02536961600404DD5 /* CCBRNewsRestClient.m */; };
+		F9EF0C032535913E00FA6153 /* CCBRNewsQuickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF0C012535913E00FA6153 /* CCBRNewsQuickViewController.m */; };
+		F9EF0C042535913E00FA6153 /* CCBRNewsQuickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EF0C022535913E00FA6153 /* CCBRNewsQuickViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +65,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD6D0F23283F3A36449B722 /* Pods-NewsFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeedTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsFeedTests/Pods-NewsFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		134BF84EC3E73312F2A7381A /* Pods_NewsFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D5575692F6ED52EEE2E4C /* Pods-NewsFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeed.release.xcconfig"; path = "Target Support Files/Pods-NewsFeed/Pods-NewsFeed.release.xcconfig"; sourceTree = "<group>"; };
+		6A0AFD3251DA35AA4A2D315D /* Pods-NewsFeed-NewsFeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeed-NewsFeedUITests.release.xcconfig"; path = "Target Support Files/Pods-NewsFeed-NewsFeedUITests/Pods-NewsFeed-NewsFeedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9594C7F3DCF875ED677E930E /* Pods-NewsFeed-NewsFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeed-NewsFeedUITests.debug.xcconfig"; path = "Target Support Files/Pods-NewsFeed-NewsFeedUITests/Pods-NewsFeed-NewsFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BECF21F25548B64D4A01FF62 /* Pods-NewsFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeedTests.release.xcconfig"; path = "Target Support Files/Pods-NewsFeedTests/Pods-NewsFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8BAECF27D18DECA027679C7 /* Pods-NewsFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeed.debug.xcconfig"; path = "Target Support Files/Pods-NewsFeed/Pods-NewsFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		CABF5EB5F5C408FA62FA08A8 /* Pods_NewsFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3262AC0D1575645B94E444 /* Pods_NewsFeed_NewsFeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsFeed_NewsFeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F906A00C2538253100312DE0 /* CCBRNewsBigCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsBigCardView.h; sourceTree = "<group>"; };
+		F906A00D2538253100312DE0 /* CCBRNewsBigCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsBigCardView.m; sourceTree = "<group>"; };
+		F906A00E2538253100312DE0 /* CCBRNewsBigCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsBigCardView.xib; sourceTree = "<group>"; };
+		F906A014253826ED00312DE0 /* CCBRNewsSmallCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsSmallCardView.h; sourceTree = "<group>"; };
+		F906A015253826ED00312DE0 /* CCBRNewsSmallCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsSmallCardView.m; sourceTree = "<group>"; };
+		F906A016253826ED00312DE0 /* CCBRNewsSmallCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsSmallCardView.xib; sourceTree = "<group>"; };
+		F906A01F25382ADA00312DE0 /* CCBRNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsViewController.h; sourceTree = "<group>"; };
+		F906A02025382ADA00312DE0 /* CCBRNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsViewController.m; sourceTree = "<group>"; };
+		F906A02125382ADA00312DE0 /* CCBRNewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsViewController.xib; sourceTree = "<group>"; };
+		F906A031253831D100312DE0 /* CCBRNewsCardViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsCardViewModel.h; sourceTree = "<group>"; };
+		F906A032253831D100312DE0 /* CCBRNewsCardViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsCardViewModel.m; sourceTree = "<group>"; };
+		F90BE34925369BA8006F8EB6 /* CCBRNewsRestResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsRestResponse.h; sourceTree = "<group>"; };
+		F90BE34A25369BA8006F8EB6 /* CCBRNewsRestResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsRestResponse.m; sourceTree = "<group>"; };
+		F90BE37525370A94006F8EB6 /* CCBRNewsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsViewModel.h; sourceTree = "<group>"; };
+		F90BE37625370A94006F8EB6 /* CCBRNewsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsViewModel.m; sourceTree = "<group>"; };
+		F917A64A2578C0B000C3087E /* CCBREventLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBREventLogger.h; sourceTree = "<group>"; };
+		F917A64B2578C0B000C3087E /* CCBREventLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBREventLogger.m; sourceTree = "<group>"; };
+		F9390E5E25431F6600B7FF6E /* UIView+CocCoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CocCoc.h"; sourceTree = "<group>"; };
+		F9390E5F25431F6600B7FF6E /* UIView+CocCoc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CocCoc.m"; sourceTree = "<group>"; };
+		F9704353257792EB00C1C3C2 /* CCBRNewsSourceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsSourceModel.h; sourceTree = "<group>"; };
+		F9704354257792EB00C1C3C2 /* CCBRNewsSourceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsSourceModel.m; sourceTree = "<group>"; };
+		F97043592577938F00C1C3C2 /* CCBRNewsCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsCategoryModel.h; sourceTree = "<group>"; };
+		F970435A2577938F00C1C3C2 /* CCBRNewsCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsCategoryModel.m; sourceTree = "<group>"; };
+		F97043652577D83000C1C3C2 /* CCBRCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRCoordinator.h; sourceTree = "<group>"; };
+		F97043662577D83000C1C3C2 /* CCBRCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRCoordinator.m; sourceTree = "<group>"; };
+		F970437C2577DC5500C1C3C2 /* NSString+CocCoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CocCoc.h"; sourceTree = "<group>"; };
+		F970437D2577DC5500C1C3C2 /* NSString+CocCoc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+CocCoc.mm"; sourceTree = "<group>"; };
+		F99395152539335C00DC5F11 /* CCBRNewsMediumCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsMediumCardView.h; sourceTree = "<group>"; };
+		F99395162539335C00DC5F11 /* CCBRNewsMediumCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsMediumCardView.m; sourceTree = "<group>"; };
+		F99395172539335C00DC5F11 /* CCBRNewsMediumCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsMediumCardView.xib; sourceTree = "<group>"; };
+		F9BBC3EB25387F3300BCD1DA /* CCBRCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRCommands.h; sourceTree = "<group>"; };
 		F9C7956925357FD400D5B365 /* NewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C7956C25357FD400D5B365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9C7956D25357FD400D5B365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +123,23 @@
 		F9C7958F25357FD500D5B365 /* NewsFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C7959325357FD500D5B365 /* NewsFeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsFeedUITests.m; sourceTree = "<group>"; };
 		F9C7959525357FD500D5B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C795A125358B5D00D5B365 /* CCBRNewsPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsPageViewController.h; sourceTree = "<group>"; };
+		F9C795A225358B5D00D5B365 /* CCBRNewsPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsPageViewController.m; sourceTree = "<group>"; };
+		F9C795A325358B5D00D5B365 /* CCBRNewsPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsPageViewController.xib; sourceTree = "<group>"; };
+		F9DFC5B32535F0B000404DD5 /* CCBRNewsQuickViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsQuickViewModel.h; sourceTree = "<group>"; };
+		F9DFC5B42535F0B000404DD5 /* CCBRNewsQuickViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsQuickViewModel.m; sourceTree = "<group>"; };
+		F9DFC5B92535F0C300404DD5 /* CCBRNewsArticleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsArticleModel.h; sourceTree = "<group>"; };
+		F9DFC5BA2535F0C300404DD5 /* CCBRNewsArticleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsArticleModel.m; sourceTree = "<group>"; };
+		F9DFC5BF2535F6D700404DD5 /* CCBRNewsPageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsPageViewModel.h; sourceTree = "<group>"; };
+		F9DFC5C02535F6D700404DD5 /* CCBRNewsPageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsPageViewModel.m; sourceTree = "<group>"; };
+		F9DFC5C52535F71D00404DD5 /* CCBRNewsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsDataSource.h; sourceTree = "<group>"; };
+		F9DFC5C92535F99400404DD5 /* CCBRNewsDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsDataStore.h; sourceTree = "<group>"; };
+		F9DFC5CA2535F99400404DD5 /* CCBRNewsDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsDataStore.m; sourceTree = "<group>"; };
+		F9DFC5CF2536961600404DD5 /* CCBRNewsRestClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsRestClient.h; sourceTree = "<group>"; };
+		F9DFC5D02536961600404DD5 /* CCBRNewsRestClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsRestClient.m; sourceTree = "<group>"; };
+		F9EF0C002535913E00FA6153 /* CCBRNewsQuickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBRNewsQuickViewController.h; sourceTree = "<group>"; };
+		F9EF0C012535913E00FA6153 /* CCBRNewsQuickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBRNewsQuickViewController.m; sourceTree = "<group>"; };
+		F9EF0C022535913E00FA6153 /* CCBRNewsQuickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCBRNewsQuickViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4449D6FA4CEAA8794C9AF3A0 /* Pods_NewsFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F195BE6BEFBCBF0C8BAA52EA /* Pods_NewsFeedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +163,123 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068C434D7402BAB49C44DF01 /* Pods_NewsFeed_NewsFeedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0917D5E4C3CBFD5C9BCEBD39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8BAECF27D18DECA027679C7 /* Pods-NewsFeed.debug.xcconfig */,
+				410D5575692F6ED52EEE2E4C /* Pods-NewsFeed.release.xcconfig */,
+				9594C7F3DCF875ED677E930E /* Pods-NewsFeed-NewsFeedUITests.debug.xcconfig */,
+				6A0AFD3251DA35AA4A2D315D /* Pods-NewsFeed-NewsFeedUITests.release.xcconfig */,
+				0FD6D0F23283F3A36449B722 /* Pods-NewsFeedTests.debug.xcconfig */,
+				BECF21F25548B64D4A01FF62 /* Pods-NewsFeedTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0E6EBF76810C8617F693BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134BF84EC3E73312F2A7381A /* Pods_NewsFeed.framework */,
+				EE3262AC0D1575645B94E444 /* Pods_NewsFeed_NewsFeedUITests.framework */,
+				CABF5EB5F5C408FA62FA08A8 /* Pods_NewsFeedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F906A0302538319A00312DE0 /* view_models */ = {
+			isa = PBXGroup;
+			children = (
+				F90BE37525370A94006F8EB6 /* CCBRNewsViewModel.h */,
+				F90BE37625370A94006F8EB6 /* CCBRNewsViewModel.m */,
+				F906A031253831D100312DE0 /* CCBRNewsCardViewModel.h */,
+				F906A032253831D100312DE0 /* CCBRNewsCardViewModel.m */,
+				F9DFC5BF2535F6D700404DD5 /* CCBRNewsPageViewModel.h */,
+				F9DFC5C02535F6D700404DD5 /* CCBRNewsPageViewModel.m */,
+				F9DFC5B32535F0B000404DD5 /* CCBRNewsQuickViewModel.h */,
+				F9DFC5B42535F0B000404DD5 /* CCBRNewsQuickViewModel.m */,
+			);
+			path = view_models;
+			sourceTree = "<group>";
+		};
+		F906A03D25384EE700312DE0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F906A01F25382ADA00312DE0 /* CCBRNewsViewController.h */,
+				F906A02025382ADA00312DE0 /* CCBRNewsViewController.m */,
+				F906A00C2538253100312DE0 /* CCBRNewsBigCardView.h */,
+				F906A00D2538253100312DE0 /* CCBRNewsBigCardView.m */,
+				F99395152539335C00DC5F11 /* CCBRNewsMediumCardView.h */,
+				F99395162539335C00DC5F11 /* CCBRNewsMediumCardView.m */,
+				F906A014253826ED00312DE0 /* CCBRNewsSmallCardView.h */,
+				F906A015253826ED00312DE0 /* CCBRNewsSmallCardView.m */,
+				F9C795A125358B5D00D5B365 /* CCBRNewsPageViewController.h */,
+				F9C795A225358B5D00D5B365 /* CCBRNewsPageViewController.m */,
+				F9EF0C002535913E00FA6153 /* CCBRNewsQuickViewController.h */,
+				F9EF0C012535913E00FA6153 /* CCBRNewsQuickViewController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F90BE34825369B7A006F8EB6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F90BE34925369BA8006F8EB6 /* CCBRNewsRestResponse.h */,
+				F90BE34A25369BA8006F8EB6 /* CCBRNewsRestResponse.m */,
+				F9DFC5B92535F0C300404DD5 /* CCBRNewsArticleModel.h */,
+				F9DFC5BA2535F0C300404DD5 /* CCBRNewsArticleModel.m */,
+				F9704353257792EB00C1C3C2 /* CCBRNewsSourceModel.h */,
+				F9704354257792EB00C1C3C2 /* CCBRNewsSourceModel.m */,
+				F97043592577938F00C1C3C2 /* CCBRNewsCategoryModel.h */,
+				F970435A2577938F00C1C3C2 /* CCBRNewsCategoryModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F9390E5B25431EE500B7FF6E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F970437C2577DC5500C1C3C2 /* NSString+CocCoc.h */,
+				F970437D2577DC5500C1C3C2 /* NSString+CocCoc.mm */,
+				F9390E5E25431F6600B7FF6E /* UIView+CocCoc.h */,
+				F9390E5F25431F6600B7FF6E /* UIView+CocCoc.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F9BBC3F52538855D00BCD1DA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F906A02125382ADA00312DE0 /* CCBRNewsViewController.xib */,
+				F906A00E2538253100312DE0 /* CCBRNewsBigCardView.xib */,
+				F99395172539335C00DC5F11 /* CCBRNewsMediumCardView.xib */,
+				F906A016253826ED00312DE0 /* CCBRNewsSmallCardView.xib */,
+				F9C795A325358B5D00D5B365 /* CCBRNewsPageViewController.xib */,
+				F9EF0C022535913E00FA6153 /* CCBRNewsQuickViewController.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F9BBC3F62538858400BCD1DA /* services */ = {
+			isa = PBXGroup;
+			children = (
+				F9DFC5C52535F71D00404DD5 /* CCBRNewsDataSource.h */,
+				F9DFC5C92535F99400404DD5 /* CCBRNewsDataStore.h */,
+				F9DFC5CA2535F99400404DD5 /* CCBRNewsDataStore.m */,
+				F9DFC5CF2536961600404DD5 /* CCBRNewsRestClient.h */,
+				F9DFC5D02536961600404DD5 /* CCBRNewsRestClient.m */,
+				F917A64A2578C0B000C3087E /* CCBREventLogger.h */,
+				F917A64B2578C0B000C3087E /* CCBREventLogger.m */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		F9C7956025357FD400D5B365 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +287,8 @@
 				F9C7958725357FD500D5B365 /* NewsFeedTests */,
 				F9C7959225357FD500D5B365 /* NewsFeedUITests */,
 				F9C7956A25357FD400D5B365 /* Products */,
+				0917D5E4C3CBFD5C9BCEBD39 /* Pods */,
+				E0E6EBF76810C8617F693BBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +305,21 @@
 		F9C7956B25357FD400D5B365 /* NewsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				F9390E5B25431EE500B7FF6E /* utils */,
+				F9BBC3F62538858400BCD1DA /* services */,
+				F9BBC3F52538855D00BCD1DA /* resources */,
+				F906A03D25384EE700312DE0 /* views */,
+				F906A0302538319A00312DE0 /* view_models */,
+				F90BE34825369B7A006F8EB6 /* models */,
 				F9C7956C25357FD400D5B365 /* AppDelegate.h */,
 				F9C7956D25357FD400D5B365 /* AppDelegate.m */,
 				F9C7956F25357FD400D5B365 /* SceneDelegate.h */,
 				F9C7957025357FD400D5B365 /* SceneDelegate.m */,
 				F9C7957225357FD400D5B365 /* ViewController.h */,
 				F9C7957325357FD400D5B365 /* ViewController.m */,
+				F9BBC3EB25387F3300BCD1DA /* CCBRCommands.h */,
+				F97043652577D83000C1C3C2 /* CCBRCoordinator.h */,
+				F97043662577D83000C1C3C2 /* CCBRCoordinator.m */,
 				F9C7957525357FD400D5B365 /* Main.storyboard */,
 				F9C7957825357FD500D5B365 /* Assets.xcassets */,
 				F9C7957A25357FD500D5B365 /* LaunchScreen.storyboard */,
@@ -144,9 +354,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9C7959825357FD500D5B365 /* Build configuration list for PBXNativeTarget "NewsFeed" */;
 			buildPhases = (
+				8A404C69DF19CE44578E9E17 /* [CP] Check Pods Manifest.lock */,
 				F9C7956525357FD400D5B365 /* Sources */,
 				F9C7956625357FD400D5B365 /* Frameworks */,
 				F9C7956725357FD400D5B365 /* Resources */,
+				81D67A3B4D161D206BFDE16A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +373,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9C7959B25357FD500D5B365 /* Build configuration list for PBXNativeTarget "NewsFeedTests" */;
 			buildPhases = (
+				0A69E6DA695FCD567FEDFCBB /* [CP] Check Pods Manifest.lock */,
 				F9C7958025357FD500D5B365 /* Sources */,
 				F9C7958125357FD500D5B365 /* Frameworks */,
 				F9C7958225357FD500D5B365 /* Resources */,
@@ -179,9 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9C7959E25357FD500D5B365 /* Build configuration list for PBXNativeTarget "NewsFeedUITests" */;
 			buildPhases = (
+				BAEC2F5A18E247019F772702 /* [CP] Check Pods Manifest.lock */,
 				F9C7958B25357FD500D5B365 /* Sources */,
 				F9C7958C25357FD500D5B365 /* Frameworks */,
 				F9C7958D25357FD500D5B365 /* Resources */,
+				C7782D11E92DC8F0E4671EB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +414,7 @@
 		F9C7956125357FD400D5B365 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CCBR;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					F9C7956825357FD400D5B365 = {
@@ -240,7 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C7957C25357FD500D5B365 /* LaunchScreen.storyboard in Resources */,
-				F9C7957925357FD500D5B365 /* Assets.xcassets in Resources */,
+				F906A02325382ADA00312DE0 /* CCBRNewsViewController.xib in Resources */,
+				F906A0102538253100312DE0 /* CCBRNewsBigCardView.xib in Resources */,
+				F99395192539335C00DC5F11 /* CCBRNewsMediumCardView.xib in Resources */,
+				F9EF0C042535913E00FA6153 /* CCBRNewsQuickViewController.xib in Resources */,
+				F906A018253826ED00312DE0 /* CCBRNewsSmallCardView.xib in Resources */,
+				F9C795A525358B5D00D5B365 /* CCBRNewsPageViewController.xib in Resources */,
+				F98D22E52578C9EE00BD90E9 /* Assets.xcassets in Resources */,
 				F9C7957725357FD400D5B365 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,15 +483,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A69E6DA695FCD567FEDFCBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsFeedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D67A3B4D161D206BFDE16A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsFeed/Pods-NewsFeed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsFeed/Pods-NewsFeed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsFeed/Pods-NewsFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A404C69DF19CE44578E9E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAEC2F5A18E247019F772702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsFeed-NewsFeedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7782D11E92DC8F0E4671EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsFeed-NewsFeedUITests/Pods-NewsFeed-NewsFeedUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsFeed-NewsFeedUITests/Pods-NewsFeed-NewsFeedUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsFeed-NewsFeedUITests/Pods-NewsFeed-NewsFeedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9C7956525357FD400D5B365 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DFC5D12536961600404DD5 /* CCBRNewsRestClient.m in Sources */,
+				F90BE34B25369BA8006F8EB6 /* CCBRNewsRestResponse.m in Sources */,
 				F9C7957425357FD400D5B365 /* ViewController.m in Sources */,
 				F9C7956E25357FD400D5B365 /* AppDelegate.m in Sources */,
+				F9DFC5B52535F0B000404DD5 /* CCBRNewsQuickViewModel.m in Sources */,
 				F9C7957F25357FD500D5B365 /* main.m in Sources */,
+				F906A017253826ED00312DE0 /* CCBRNewsSmallCardView.m in Sources */,
+				F970437E2577DC5500C1C3C2 /* NSString+CocCoc.mm in Sources */,
+				F917A64C2578C0B000C3087E /* CCBREventLogger.m in Sources */,
+				F9DFC5BB2535F0C300404DD5 /* CCBRNewsArticleModel.m in Sources */,
+				F9DFC5C12535F6D700404DD5 /* CCBRNewsPageViewModel.m in Sources */,
+				F906A033253831D100312DE0 /* CCBRNewsCardViewModel.m in Sources */,
+				F906A00F2538253100312DE0 /* CCBRNewsBigCardView.m in Sources */,
+				F906A02225382ADA00312DE0 /* CCBRNewsViewController.m in Sources */,
+				F99395182539335C00DC5F11 /* CCBRNewsMediumCardView.m in Sources */,
+				F9704355257792EB00C1C3C2 /* CCBRNewsSourceModel.m in Sources */,
+				F970435B2577938F00C1C3C2 /* CCBRNewsCategoryModel.m in Sources */,
+				F9EF0C032535913E00FA6153 /* CCBRNewsQuickViewController.m in Sources */,
+				F97043672577D83000C1C3C2 /* CCBRCoordinator.m in Sources */,
+				F9C795A425358B5D00D5B365 /* CCBRNewsPageViewController.m in Sources */,
+				F9DFC5CB2535F99400404DD5 /* CCBRNewsDataStore.m in Sources */,
 				F9C7957125357FD400D5B365 /* SceneDelegate.m in Sources */,
+				F9390E6025431F6600B7FF6E /* UIView+CocCoc.m in Sources */,
+				F90BE37725370A94006F8EB6 /* CCBRNewsViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +720,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +783,7 @@
 		};
 		F9C7959925357FD500D5B365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BAECF27D18DECA027679C7 /* Pods-NewsFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +802,7 @@
 		};
 		F9C7959A25357FD500D5B365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410D5575692F6ED52EEE2E4C /* Pods-NewsFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +821,7 @@
 		};
 		F9C7959C25357FD500D5B365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD6D0F23283F3A36449B722 /* Pods-NewsFeedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +842,7 @@
 		};
 		F9C7959D25357FD500D5B365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECF21F25548B64D4A01FF62 /* Pods-NewsFeedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +863,7 @@
 		};
 		F9C7959F25357FD500D5B365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9594C7F3DCF875ED677E930E /* Pods-NewsFeed-NewsFeedUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 477H9TWJ76;
@@ -532,6 +882,7 @@
 		};
 		F9C795A025357FD500D5B365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0AFD3251DA35AA4A2D315D /* Pods-NewsFeed-NewsFeedUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 477H9TWJ76;
