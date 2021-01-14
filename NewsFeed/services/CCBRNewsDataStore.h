@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^nextArticlesCallback)(NSUInteger startIndex, NSUInteger endIndex);
 
 - (void)start;
-
+@property (nonatomic, copy) void (^errorCallBack)(NSError* error);
 @end
 
 NS_ASSUME_NONNULL_END

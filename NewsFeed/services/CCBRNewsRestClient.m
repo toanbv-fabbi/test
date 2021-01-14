@@ -81,13 +81,15 @@ const NSTimeInterval kRequestTimeout  = 30;
         completionHandler:^(NSData* _Nullable data,
                             NSURLResponse* _Nullable response,
                             NSError* _Nullable error) {
+      
           if (error) {
             block(nil, error);
             return;
           }
-
           NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)response;
           if ([httpResponse isKindOfClass:NSHTTPURLResponse.class]) {
+              NSLog(@"url %@",httpResponse.URL.absoluteString);
+              NSLog(@"header %@",httpResponse.allHeaderFields);
               if (httpResponse.statusCode != 200) {
                   error = [NSError errorWithDomain:@"" code:0 userInfo:nil];
                     block(nil, error);

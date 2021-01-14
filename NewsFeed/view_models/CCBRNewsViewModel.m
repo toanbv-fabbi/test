@@ -20,20 +20,28 @@
         
         __weak CCBRNewsViewModel *weakSelf = self;
         self.dataSource.nextArticlesCallback = ^(NSUInteger startIndex, NSUInteger endIndex) {
+            weakSelf.collectionViewHidden = false;
+            weakSelf.errorMessageLabelHidden = true;
+            if (weakSelf.updateCallback) {
+                weakSelf.updateCallback();
+            }
+        };
+        self.dataSource.errorCallBack = ^(NSError* error) {
+            
+            weakSelf.collectionViewHidden = true;
+            weakSelf.errorMessageLabelHidden = false;
+            if (error.localizedDescription != nil) {
+                weakSelf.errorMessage = error.localizedDescription;
+            }
+            else {
+                weakSelf.errorMessage = @"Have error";
+            }
             if (weakSelf.updateCallback) {
                 weakSelf.updateCallback();
             }
         };
     }
     return self;
-}
-
-- (BOOL)collectionViewHidden {
-    return self.dataSource.articleCount == 0;
-}
-
-- (BOOL)errorMessageLabelHidden {
-    return YES;
 }
 
 - (NSUInteger)itemCount {
@@ -46,6 +54,9 @@
         return [[CCBRNewsCardViewModel alloc] initWithModel:article];
     }
     return nil;
+}
+- (void)loadMore {
+    [self.dataSource loadNextArticles];
 }
 
 @end

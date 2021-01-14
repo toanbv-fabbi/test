@@ -85,6 +85,7 @@ static NSString * const kCCBRNewsSmallCardView = @"CCBRNewsSmallCardView";
 - (void)updateUI {
     self.collectionView.hidden = self.viewModel.collectionViewHidden;
     self.errorMessageLabel.hidden = self.viewModel.errorMessageLabelHidden;
+    self.errorMessageLabel.text = self.viewModel.errorMessage;
     [self.collectionView reloadData];
 }
 
@@ -130,6 +131,13 @@ static NSString * const kCCBRNewsSmallCardView = @"CCBRNewsSmallCardView";
     }
     
     return cell;
+}
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSInteger lastSectionIndex = [collectionView numberOfSections] - 1;
+       NSInteger lastRowIndex = [collectionView numberOfItemsInSection:lastSectionIndex] - 1;
+       if ((indexPath.section == lastSectionIndex) && (indexPath.row == lastRowIndex)) {
+           [self.viewModel loadMore];
+       }
 }
 
 #pragma mark <UICollectionViewDelegate>
@@ -189,7 +197,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
 - (IBAction)didTapButton:(UIButton *)sender {
     if (sender == self.settingsButton) {
-        // TODO: Show Settings screen
+        
     }
 }
 
